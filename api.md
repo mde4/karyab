@@ -29,9 +29,12 @@ https://karyab-api.herokuapp.com/bookmarks
 	"productId":2
 }
 Post: add Bookmark  from logged in user to product 2(Bearer Token needed)
+
 https://karyab-api.herokuapp.com/bookmarks
 Get: Show all products bookmarked by user (Bearer Token needed)
+
 https://karyab-api.herokuapp.com/bookmarks?productId=3
 Get:Shows if User bookmarked product with productId=3 (Bearer Token needed)
+
 https://karyab-api.herokuapp.com/bookmarks/14
 Delete: Deletes bookmark with Id number =14, if it belongs to current user
