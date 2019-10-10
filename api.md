@@ -26,6 +26,7 @@ Get: get all products
 
 https://karyab-api.herokuapp.com/products/1
 Get: Show product with productId=1
+if there is no such product=> status: 404, {"msg": "there is no such product"}
 
 https://karyab-api.herokuapp.com/bookmarks
 {
