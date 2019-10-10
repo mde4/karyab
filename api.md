@@ -9,7 +9,7 @@ Get: get all brands
 {
 	"name": "Sports"
 }
-Post: add category
+/Post: add category
 Get: get all categories
 
  https://karyab-api.herokuapp.com/products
@@ -23,6 +23,9 @@ Get: get all categories
 }
 Post: add product
 Get: get all products
+
+https://karyab-api.herokuapp.com/products/1
+Get: Show product with productId=1
 
 https://karyab-api.herokuapp.com/bookmarks
 {
