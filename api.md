@@ -56,5 +56,5 @@ https://karyab-api.herokuapp.com/comments
 }
 Post: add comment from current user to product 
 
-http://localhost:8081/comments?productId=1
+https://karyab-api.herokuapp.com/comments?productId=1
 Get: Shows all comments that belongs to prduct with productId=1
