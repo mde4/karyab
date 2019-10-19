@@ -49,12 +49,9 @@ Get:Shows if User bookmarked product with productId=3 (Bearer Token needed)
 https://karyab-api.herokuapp.com/bookmarks/14
 Delete: Deletes bookmark with Id number =14, if it belongs to current user
 
-https://karyab-api.herokuapp.com/comments
-{
-  "productId":"1",
-  "comment":"my comment"
-}
-Post: add comment from current user to product 
+https://karyab-api.herokuapp.com/rateComments
+{ "productId":1,"rate":5, "comment":"my comment3","storeId":null }
+Post: add comment & rate  from current user to product 
 
-https://karyab-api.herokuapp.com/comments?productId=1
-Get: Shows all comments that belongs to prduct with productId=1
+https://karyab-api.herokuapp.com/rateComments?productId=1
+Get: Shows all comments and rates that belongs to prduct with productId=1
