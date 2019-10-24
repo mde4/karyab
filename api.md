@@ -59,7 +59,7 @@ Get: Shows all comments and rates that belongs to prduct with productId=1
 https://karyab-api.herokuapp.com/stores
 { 
 	"name": "ssan",
-	"phone": "87987u87",
+	"phone": "87987587",
 	"email": "abc@de.fgh",
 	"address": "yazd",
 	"postalCode": "8918889900"
