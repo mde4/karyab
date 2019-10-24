@@ -50,8 +50,23 @@ https://karyab-api.herokuapp.com/bookmarks/14
 Delete: Deletes bookmark with Id number =14, if it belongs to current user
 
 https://karyab-api.herokuapp.com/rateComments
-{ "productId":1,"rate":5, "comment":"my comment3","storeId":null }
+{ "productId":1,"rate":5, "comment":"my comment3","storeId":1 }
 Post: add comment & rate  from current user to product 
 
 https://karyab-api.herokuapp.com/rateComments?productId=1
 Get: Shows all comments and rates that belongs to prduct with productId=1
+
+https://karyab-api.herokuapp.com/stores
+{ 
+	"name": "ssan",
+	"phone": "87987u87",
+	"email": "abc@de.fgh",
+	"address": "yazd",
+	"postalCode": "8918889900"
+}
+Post: add store
+Get: get all stores
+
+https://karyab-api.herokuapp.com/stores/1
+Get: Show store with storeId=1. 
+if there is no such store=> status: 404, {"msg": "there is no such store"}
