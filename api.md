@@ -70,3 +70,16 @@ Get: get all stores
 https://karyab-api.herokuapp.com/stores/1
 Get: Show store with storeId=1. 
 if there is no such store=> status: 404, {"msg": "there is no such store"}
+
+https://karyab-api.herokuapp.com/stocks
+{"storeId":1, "productId":1, "quantity":4}
+Post: add quantity to store inventory
+
+https://karyab-api.herokuapp.com/stocks?storeId=1&productId=1
+Get: returns quantity of product 1 in store 1
+
+https://karyab-api.herokuapp.com/stocks?storeId=1
+Get: returns all products of store 1
+
+https://karyab-api.herokuapp.com/stocks?productId=1
+Get: returns all stores that have product 1
