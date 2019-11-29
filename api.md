@@ -59,9 +59,12 @@ Delete: Deletes bookmark with Id number =14, if it belongs to current user
 https://karyab-api.herokuapp.com/rateComments
 { "productId":1,"rate":5, "comment":"my comment3","storeId":1 }
 Post: add comment & rate  from current user to product 
-
 https://karyab-api.herokuapp.com/rateComments?productId=1
 Get: Shows all comments and rates that belongs to prduct with productId=1
+
+https://karyab-api.herokuapp.com/rateComments/1
+Delete: delete comment sent from logged in user for product with productId=1
+
 
 https://karyab-api.herokuapp.com/stores
 { 
