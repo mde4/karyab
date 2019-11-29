@@ -2,6 +2,13 @@ https://karyab-api.herokuapp.com/register
 {
   "email":"e@m.ail",
   "password":"12345678"
+	"name":"amirReza"
+}
+
+https://karyab-api.herokuapp.com/login
+{
+  "email":"e@m.ail",
+  "password":"12345678"
 }
 
 https://karyab-api.herokuapp.com/brands
