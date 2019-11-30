@@ -59,6 +59,7 @@ Delete: Deletes bookmark with Id number =14, if it belongs to current user
 https://karyab-api.herokuapp.com/rateComments
 { "productId":1,"rate":5, "comment":"my comment3","storeId":1 }
 Post: add comment & rate  from current user to product 
+
 https://karyab-api.herokuapp.com/rateComments?productId=1
 Get: Shows all comments and rates that belongs to prduct with productId=1
 
@@ -101,3 +102,16 @@ if there is no such product => status: 404, {"msg": "there is no such product"}
 
 https://karyab-api.herokuapp.com/shopping-cart/
 Get: shows the content of shopping cart.
+
+https://karyab-api.herokuapp.com/user/1
+Get: shows the the user fields.
+
+https://karyab-api.herokuapp.com/user
+{
+    "userId": 1,
+    "name": "ali",
+    "phone": "09138765432",
+    "address": "tehran",
+    "postalCode": "9876543210"
+}
+Put: change user fields with userId=1
