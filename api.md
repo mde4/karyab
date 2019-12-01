@@ -103,10 +103,10 @@ if there is no such product => status: 404, {"msg": "there is no such product"}
 https://karyab-api.herokuapp.com/shopping-cart/
 Get: shows the content of shopping cart.
 
-https://karyab-api.herokuapp.com/user/1
+https://karyab-api.herokuapp.com/users/1
 Get: shows the the user fields.
 
-https://karyab-api.herokuapp.com/user
+https://karyab-api.herokuapp.com/users
 {
     "userId": 1,
     "name": "ali",
