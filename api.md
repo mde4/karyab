@@ -99,6 +99,7 @@ Get: returns all stores that have product 1
 https://karyab-api.herokuapp.com/shopping-cart/1
 Get: add product with id 1 to shopping cart.
 if there is no such product => status: 404, {"msg": "there is no such product"}
+Delete: reduce product with id 1 from shopping cart by 1.
 
 https://karyab-api.herokuapp.com/shopping-cart/
 Get: shows the content of shopping cart.
