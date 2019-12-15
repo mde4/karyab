@@ -121,3 +121,9 @@ https://karyab-api.herokuapp.com/users
     "postalCode": "9876543210"
 }
 Put: change user fields with userId=1
+
+https://karyab-api.herokuapp.com/provinces
+Get: show provinces
+
+https://karyab-api.herokuapp.com/provinces/31
+Get: show the cities of province 31
