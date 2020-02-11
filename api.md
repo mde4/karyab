@@ -74,6 +74,7 @@ https://karyab-api.herokuapp.com/stores
 	"email": "abc@de.fgh",
 	"address": "yazd",
 	"postalCode": "8918889900"
+	"UserId":1
 }
 Post: add store
 Get: get all stores
@@ -124,3 +125,18 @@ Get: show provinces
 
 https://karyab-api.herokuapp.com/provinces/31
 Get: show the cities of province 31
+
+https://karyab-api.herokuapp.com/provinces
+
+https://karyab-api.herokuapp.com/chats
+{ 
+	"title":"title7",
+	"productId":1,
+	"storeId": 1,
+	"message":"my new message1"
+ }
+ post : create chat about product 1 that belogns to store 1
+ get : show all chats of current logged in user
+
+ https://karyab-api.herokuapp.com/storeConversations
+ get: show conversations that belongs to currently logged in staff
