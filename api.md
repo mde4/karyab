@@ -1,7 +1,7 @@
 https://karyab-api.herokuapp.com/register
 {
   "email":"e@m.ail",
-  "password":"12345678"
+  "password":"12345678",
 	"name":"amirReza"
 }
 
@@ -112,10 +112,11 @@ Get: shows the the user fields.
 
 https://karyab-api.herokuapp.com/users
 {
-    "userId": 1,
+    "id": 1,
     "name": "ali",
     "phone": "09138765432",
     "address": "tehran",
+		"role": "staff",
     "postalCode": "9876543210"
 }
 Put: change user fields with userId=1
