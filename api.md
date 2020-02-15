@@ -38,6 +38,9 @@ Post: add product
 Put: edit product
 Get: get all products
 
+https://karyab-api.herokuapp.com/products?CategoryId=1
+Get: show products that belongs to CategoryId=1
+
 https://karyab-api.herokuapp.com/products/1
 Get: Show product with productId=1. 
 if there is no such product=> status: 404, {"msg": "there is no such product"}
