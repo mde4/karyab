@@ -35,6 +35,7 @@ Get: get all categories
 	"BrandId":1
 }
 Post: add product
+Put: edit product
 Get: get all products
 
 https://karyab-api.herokuapp.com/products/1
