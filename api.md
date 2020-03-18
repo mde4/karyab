@@ -143,5 +143,14 @@ https://karyab-api.herokuapp.com/chats
  post : create chat about product 1 that belogns to store 1
  get : show all chats of current logged in user
 
+https://karyab-api.herokuapp.com/chats/20
+{ "message":"edited by owner of this message " }
+put: edit chat with id 20 if it belongs to currently logged in user
+
  https://karyab-api.herokuapp.com/storeConversations
- get: show conversations that belongs to currently logged in staff
+ {
+	"conversationId": 9,
+ 	"message": "my response to conversation 69"
+ }
+ post: response to conversation that was created by a customer. 
+ get: show conversations that belongs to currently logged in staff.
