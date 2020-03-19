@@ -146,6 +146,8 @@ https://karyab-api.herokuapp.com/chats
 https://karyab-api.herokuapp.com/chats/20
 { "message":"edited by owner of this message " }
 put: edit chat with id 20 if it belongs to currently logged in user
+delete: delete chat
+get: show chats of conversationId 20
 
  https://karyab-api.herokuapp.com/storeConversations
  {
