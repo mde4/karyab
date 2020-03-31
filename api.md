@@ -148,8 +148,12 @@ https://karyab-api.herokuapp.com/chats/20
 put: edit chat with id 20 if it belongs to currently logged in user
 delete: delete chat
 
-https://karyab-api.herokuapp.com/chats?conversationId=2
-get: show chats of conversationId 2
+https://karyab-api.herokuapp.com/chats?conversationId=2&productId=2&storeId=2
+get: if conversationId is set => show chats of conversationId 2
+
+get: if productId is set => show chats of productId 2
+
+get: if storeId is set => show chats of storeId 2
 
  https://karyab-api.herokuapp.com/storeConversations
  {
