@@ -38,8 +38,10 @@ Post: add product
 Put: edit product
 Get: get all products
 
-https://karyab-api.herokuapp.com/products?CategoryId=1
-Get: show products that belongs to CategoryId=1
+https://karyab-api.herokuapp.com/products?categoryId=1&storeId=3
+get: if categoryId is set => show chats of categoryId 2
+
+get: if storeId is set => show chats of storeId 3
 
 https://karyab-api.herokuapp.com/products/1
 Get: Show product with productId=1. 
