@@ -113,6 +113,10 @@ Delete: remove product with id 1 from shopping cart.
 https://karyab-api.herokuapp.com/shopping-cart/
 Get: shows the content of shopping cart.
 
+https://karyab-api.herokuapp.com/checkout
+{"name": "ali", "mobile": "09132525555", "province": "yazd", "city": "yazd", "address": "azadshahr", "postalCode": "9876543210"} 
+Post: add user specification to shopping cart object
+
 https://karyab-api.herokuapp.com/users/1
 Get: shows the the user fields.
 
