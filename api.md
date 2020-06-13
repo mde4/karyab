@@ -25,7 +25,7 @@ Get: get all brands
 /Post: add category
 Get: get all categories
 
- https://karyab-api.herokuapp.com/products?page=0&pageSize=5
+ https://karyab-api.herokuapp.com/products?page=0&pageSize=5&search=good
 {
 	"name": "mashin",
 	"price":100,
