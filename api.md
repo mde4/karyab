@@ -169,7 +169,7 @@ get: if storeId is set => show chats of storeId 2
  post: response to conversation that was created by a customer. 
  get: show conversations that belongs to currently logged in staff.
 
-https://karyab-api.herokuapp.com/confirmProduct?page=0&pageSize=9
+https://karyab-api.herokuapp.com/allProducts?page=0&pageSize=9
 show list of products to staff in order to confirm
 
 
