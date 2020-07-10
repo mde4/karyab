@@ -35,8 +35,15 @@ Get: get all categories
 	"BrandId":1
 }
 Post: add product
-Put: edit product
 Get: get all products
+
+https://karyab-api.herokuapp.com/products/2
+{
+	"name": "mashin",
+	"price":100,
+	...
+}
+Put: edit product with id 2
 
 https://karyab-api.herokuapp.com/products?categoryId=1&storeId=3&page=0&pageSize=5
 get: if categoryId is set => show chats of categoryId 2
