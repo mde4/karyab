@@ -94,6 +94,7 @@ Get: get all stores
 
 https://karyab-api.herokuapp.com/stores/1
 Get: Show store with storeId=1. 
+put : edit store (Bearer token needed)
 if there is no such store=> status: 404, {"msg": "there is no such store"}
 
 https://karyab-api.herokuapp.com/stocks
